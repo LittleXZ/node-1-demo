@@ -43,7 +43,6 @@ var server = http.createServer(function(request, response){
 
     /******** 代码结束，下面不要看 ************/
 })
-
 server.listen(port)
 console.log('监听 ' + port + ' 成功\n打开 http://localhost:' + port)
 
